@@ -25,11 +25,11 @@ pub fn run() {
     // let f1 = File::open("hello.txt").expect("open file error");
     // println!("{:#?}", f1);
 
-    let f2 = File::open("hello.txt");
-    match f2 {
-        Ok(file) => println!("{:#?}", file),
-        Err(error) => {
-            panic!("open file error: {:#?}", error);
-        }
-    }
+    // let f2 = File::open("hello.txt");
+    // match f2 {
+    //     Ok(file) => println!("{:#?}", file),
+    //     Err(error) => {
+    //         panic!("open file error: {:#?}", error);
+    //     }
+    // }
 }
